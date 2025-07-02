@@ -389,6 +389,9 @@ setTimeout(() =>{
 
 function menuDetail(cb) {
 
+    // After logging its message, it uses setTimeout to simulate a delay.
+// When the timeout finishes, it calls the callback (cb()), which starts the next step.
+
     console.log("checking menu");
     setTimeout(cb, 3000);
 }
