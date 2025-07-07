@@ -387,6 +387,7 @@ setTimeout(() =>{
 // A callback function in JS is a function that is passed as an argument to another function and is executed after the completion of that function.
 //  This allows for asynchronous operations and event handling, enabling code to be executed at a later time, rather than immediately
 
+/*
 function menuDetail(cb) {
 
     // After logging its message, it uses setTimeout to simulate a delay.
@@ -445,3 +446,4 @@ menuDetail(() =>{
 
 // this above is pyramid of doom, here we loose the control of our codebase
 // now the above code is executed in order
+*/
